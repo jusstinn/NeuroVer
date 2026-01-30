@@ -1,0 +1,24 @@
+{
+  "type": "mock_zk_proof",
+  "version": "1.0",
+  "commitment": "ec5bb93cbc3c1f6235456225690b25e9ae8b31b1143074a4f6f41e789c2f89e9",
+  "public_inputs": {
+    "threshold": 10.0,
+    "base_model_hash": "hash",
+    "result": 1
+  },
+  "proof_data": {
+    "norm_check_passed": true,
+    "computed_norm": 9.999999999999998
+  },
+  "metadata": {
+    "a_shape": [
+      8,
+      768
+    ],
+    "b_shape": [
+      768,
+      8
+    ]
+  }
+}
