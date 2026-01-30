@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "policy_name": "EU AI Act Tier 2 - LoRA Fine-Tuning Safety Standards",
+  "effective_date": "2026-01-01",
+  
+  "weight_constraints": {
+    "max_weight_norm": 10.0,
+    "per_layer_max_norm": 5.0
+  },
+  
+  "differential_privacy": {
+    "min_dp_epsilon": 1.0,
+    "max_gradient_norm": 1.0,
+    "noise_multiplier": 0.1
+  },
+  
+  "training_constraints": {
+    "max_learning_rate": 0.01,
+    "max_epochs": 10,
+    "max_training_steps": 10000
+  },
+  
+  "lora_constraints": {
+    "max_rank": 64,
+    "max_alpha": 128
+  },
+  
+  "audit_requirements": {
+    "require_proof_generation": true,
+    "proof_type": "zk-snark",
+    "proof_framework": "ezkl"
+  }
+}
