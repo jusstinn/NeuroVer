@@ -1,0 +1,2520 @@
+{
+  "timestamp": "2026-01-30T14:02:54.378901",
+  "total_tests": 137,
+  "passed": 137,
+  "failed": 0,
+  "pass_rate": 100.0,
+  "total_duration_ms": 6476.392099692021,
+  "categories": {
+    "lr_sweep": {
+      "passed": 20,
+      "total": 20,
+      "tests": [
+        {
+          "name": "LR=1e-06 (compliant)",
+          "passed": true,
+          "norm": 2.2132406900173048e-07,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 52.7198999770917
+        },
+        {
+          "name": "LR=1e-05 (compliant)",
+          "passed": true,
+          "norm": 2.1259200391025182e-05,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 20.47249994939193
+        },
+        {
+          "name": "LR=5e-05 (compliant)",
+          "passed": true,
+          "norm": 0.0005604303281406839,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 20.009399973787367
+        },
+        {
+          "name": "LR=0.0001 (compliant)",
+          "passed": true,
+          "norm": 0.002160905427702551,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 17.671699984930456
+        },
+        {
+          "name": "LR=0.0002 (compliant)",
+          "passed": true,
+          "norm": 0.00866890770768759,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 15.712900029029697
+        },
+        {
+          "name": "LR=0.0005 (compliant)",
+          "passed": true,
+          "norm": 0.0546406394276882,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 18.661700014490634
+        },
+        {
+          "name": "LR=0.001 (compliant)",
+          "passed": true,
+          "norm": 0.22042855402995845,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 16.013999993447214
+        },
+        {
+          "name": "LR=0.002 (compliant)",
+          "passed": true,
+          "norm": 0.8646005882721158,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 15.120800002478063
+        },
+        {
+          "name": "LR=0.003 (compliant)",
+          "passed": true,
+          "norm": 1.9551431661269725,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 15.642099955584854
+        },
+        {
+          "name": "LR=0.005 (compliant)",
+          "passed": true,
+          "norm": 5.309290515263741,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 16.921200032811612
+        },
+        {
+          "name": "LR=0.01 (violation)",
+          "passed": true,
+          "norm": 21.729075234195477,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 15.130400017369539
+        },
+        {
+          "name": "LR=0.02 (violation)",
+          "passed": true,
+          "norm": 88.86613597397204,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 17.517599975690246
+        },
+        {
+          "name": "LR=0.03 (violation)",
+          "passed": true,
+          "norm": 195.96783103872048,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 18.09179998235777
+        },
+        {
+          "name": "LR=0.05 (violation)",
+          "passed": true,
+          "norm": 537.4675552750294,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 17.322600004263222
+        },
+        {
+          "name": "LR=0.1 (violation)",
+          "passed": true,
+          "norm": 2141.6843613513633,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 15.675300033763051
+        },
+        {
+          "name": "LR=0.15 (violation)",
+          "passed": true,
+          "norm": 5010.072731758079,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 16.347600030712783
+        },
+        {
+          "name": "LR=0.2 (violation)",
+          "passed": true,
+          "norm": 8658.332164746203,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 16.298000002279878
+        },
+        {
+          "name": "LR=0.5 (violation)",
+          "passed": true,
+          "norm": 54173.910715335776,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 17.378500022459775
+        },
+        {
+          "name": "LR=0.8 (violation)",
+          "passed": true,
+          "norm": 137532.63448275352,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 15.47550002578646
+        },
+        {
+          "name": "LR=1.0 (violation)",
+          "passed": true,
+          "norm": 215818.21730954773,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 16.732499992940575
+        }
+      ]
+    },
+    "model": {
+      "passed": 40,
+      "total": 40,
+      "tests": [
+        {
+          "name": "tiny: r=4 (safe)",
+          "passed": true,
+          "norm": 0.0005215459246756824,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 2.8965999954380095
+        },
+        {
+          "name": "tiny: r=8 (safe)",
+          "passed": true,
+          "norm": 0.0007321766211557621,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 3.8904999964870512
+        },
+        {
+          "name": "tiny: r=16 (safe)",
+          "passed": true,
+          "norm": 0.0010147408775609235,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 2.559899992775172
+        },
+        {
+          "name": "tiny: r=32 (safe)",
+          "passed": true,
+          "norm": 0.0014523027824078715,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 3.7084000068716705
+        },
+        {
+          "name": "small: r=4 (safe)",
+          "passed": true,
+          "norm": 0.0010309119559936747,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 5.563899991102517
+        },
+        {
+          "name": "small: r=8 (safe)",
+          "passed": true,
+          "norm": 0.0014616730470232153,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 7.360100047662854
+        },
+        {
+          "name": "small: r=16 (safe)",
+          "passed": true,
+          "norm": 0.0020550954745380107,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 6.357999984174967
+        },
+        {
+          "name": "small: r=32 (safe)",
+          "passed": true,
+          "norm": 0.0028277820460633238,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 9.044000005815178
+        },
+        {
+          "name": "base: r=4 (safe)",
+          "passed": true,
+          "norm": 0.0015182719306991602,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 15.123499964829534
+        },
+        {
+          "name": "base: r=8 (safe)",
+          "passed": true,
+          "norm": 0.002148400463723108,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 16.465399996377528
+        },
+        {
+          "name": "base: r=16 (safe)",
+          "passed": true,
+          "norm": 0.003055574316663689,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 17.468500009272248
+        },
+        {
+          "name": "base: r=32 (safe)",
+          "passed": true,
+          "norm": 0.004385695251211029,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 18.43969995388761
+        },
+        {
+          "name": "medium: r=4 (safe)",
+          "passed": true,
+          "norm": 0.0020889504738267122,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 25.65249998588115
+        },
+        {
+          "name": "medium: r=8 (safe)",
+          "passed": true,
+          "norm": 0.002830271138214267,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 38.170000014360994
+        },
+        {
+          "name": "medium: r=16 (safe)",
+          "passed": true,
+          "norm": 0.004138218961692427,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 35.212599963415414
+        },
+        {
+          "name": "medium: r=32 (safe)",
+          "passed": true,
+          "norm": 0.005798816112107601,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 37.96449996298179
+        },
+        {
+          "name": "large: r=4 (safe)",
+          "passed": true,
+          "norm": 0.0025369417750646054,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 48.79019997315481
+        },
+        {
+          "name": "large: r=8 (safe)",
+          "passed": true,
+          "norm": 0.003634031494623497,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 53.02389996359125
+        },
+        {
+          "name": "large: r=16 (safe)",
+          "passed": true,
+          "norm": 0.005158499544150131,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 46.453399991150945
+        },
+        {
+          "name": "large: r=32 (safe)",
+          "passed": true,
+          "norm": 0.007289940295482903,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 50.700999971013516
+        },
+        {
+          "name": "xl: r=4 (safe)",
+          "passed": true,
+          "norm": 0.0032270280054972314,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 72.03410001238808
+        },
+        {
+          "name": "xl: r=8 (safe)",
+          "passed": true,
+          "norm": 0.004487506573319029,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 78.53599998634309
+        },
+        {
+          "name": "xl: r=16 (safe)",
+          "passed": true,
+          "norm": 0.006430077152499108,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 71.85529998969287
+        },
+        {
+          "name": "xl: r=32 (safe)",
+          "passed": true,
+          "norm": 0.00902285582191949,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 76.2867999728769
+        },
+        {
+          "name": "xxl: r=4 (safe)",
+          "passed": true,
+          "norm": 0.004128040343535154,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 105.95840000314638
+        },
+        {
+          "name": "xxl: r=8 (safe)",
+          "passed": true,
+          "norm": 0.005844273176851484,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 100.33889999613166
+        },
+        {
+          "name": "xxl: r=16 (safe)",
+          "passed": true,
+          "norm": 0.008291268988286811,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 99.43189995829016
+        },
+        {
+          "name": "xxl: r=32 (safe)",
+          "passed": true,
+          "norm": 0.011610369176429033,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 116.32509995251894
+        },
+        {
+          "name": "gpt2: r=4 (safe)",
+          "passed": true,
+          "norm": 0.0015899039689229394,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 18.58370000263676
+        },
+        {
+          "name": "gpt2: r=8 (safe)",
+          "passed": true,
+          "norm": 0.002140678382742942,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 15.977400005795062
+        },
+        {
+          "name": "gpt2: r=16 (safe)",
+          "passed": true,
+          "norm": 0.003094526013019182,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 20.514999981969595
+        },
+        {
+          "name": "gpt2: r=32 (safe)",
+          "passed": true,
+          "norm": 0.004349112264081802,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 20.067600009497255
+        },
+        {
+          "name": "gpt2-medium: r=4 (safe)",
+          "passed": true,
+          "norm": 0.002102827170064038,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 29.91639997344464
+        },
+        {
+          "name": "gpt2-medium: r=8 (safe)",
+          "passed": true,
+          "norm": 0.0028565923827753837,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 36.728099978063256
+        },
+        {
+          "name": "gpt2-medium: r=16 (safe)",
+          "passed": true,
+          "norm": 0.004085953784849899,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 34.47240003151819
+        },
+        {
+          "name": "gpt2-medium: r=32 (safe)",
+          "passed": true,
+          "norm": 0.005773117993384384,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 33.79799996037036
+        },
+        {
+          "name": "gpt2-large: r=4 (safe)",
+          "passed": true,
+          "norm": 0.002558881746708083,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 48.809200001414865
+        },
+        {
+          "name": "gpt2-large: r=8 (safe)",
+          "passed": true,
+          "norm": 0.0035729806080416317,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 53.270499978680164
+        },
+        {
+          "name": "gpt2-large: r=16 (safe)",
+          "passed": true,
+          "norm": 0.005072216403721939,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 48.50919998716563
+        },
+        {
+          "name": "gpt2-large: r=32 (safe)",
+          "passed": true,
+          "norm": 0.007281922515104682,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 51.39239999698475
+        }
+      ]
+    },
+    "rank": {
+      "passed": 12,
+      "total": 12,
+      "tests": [
+        {
+          "name": "Rank=2, safe scale",
+          "passed": true,
+          "norm": 0.0010900289783744917,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 12.116800004150718
+        },
+        {
+          "name": "Rank=4, safe scale",
+          "passed": true,
+          "norm": 0.0015070583935880085,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 17.732199979946017
+        },
+        {
+          "name": "Rank=8, safe scale",
+          "passed": true,
+          "norm": 0.002221296793846984,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 15.663700003642589
+        },
+        {
+          "name": "Rank=16, safe scale",
+          "passed": true,
+          "norm": 0.0019673913553613412,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 18.366499978583306
+        },
+        {
+          "name": "Rank=32, safe scale",
+          "passed": true,
+          "norm": 0.0027925385754315603,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 19.2063000285998
+        },
+        {
+          "name": "Rank=64, safe scale",
+          "passed": true,
+          "norm": 0.0015449484004434197,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 23.063500004354864
+        },
+        {
+          "name": "Rank=128, safe scale",
+          "passed": true,
+          "norm": 0.002183806304137427,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 27.216700022108853
+        },
+        {
+          "name": "Rank=256, safe scale",
+          "passed": true,
+          "norm": 0.0030393118914656776,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 33.55039999587461
+        },
+        {
+          "name": "Rank=8, excessive scale",
+          "passed": true,
+          "norm": 22.063831310127945,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 16.227199987042695
+        },
+        {
+          "name": "Rank=16, excessive scale",
+          "passed": true,
+          "norm": 30.43129165881495,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 19.411600020248443
+        },
+        {
+          "name": "Rank=32, excessive scale",
+          "passed": true,
+          "norm": 43.22444714945977,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 43.130400008521974
+        },
+        {
+          "name": "Rank=64, excessive scale",
+          "passed": true,
+          "norm": 61.55737984768516,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 34.53599999193102
+        }
+      ]
+    },
+    "boundary": {
+      "passed": 25,
+      "total": 25,
+      "tests": [
+        {
+          "name": "Threshold 10% (pass)",
+          "passed": true,
+          "norm": 0.9999999999999997,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 31.259600014891475
+        },
+        {
+          "name": "Threshold 20% (pass)",
+          "passed": true,
+          "norm": 1.9999999999999996,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 25.555500003974885
+        },
+        {
+          "name": "Threshold 30% (pass)",
+          "passed": true,
+          "norm": 2.999999999999999,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 23.138999997172505
+        },
+        {
+          "name": "Threshold 40% (pass)",
+          "passed": true,
+          "norm": 4.0,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 22.33199996408075
+        },
+        {
+          "name": "Threshold 50% (pass)",
+          "passed": true,
+          "norm": 4.999999999999999,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 23.731399967800826
+        },
+        {
+          "name": "Threshold 60% (pass)",
+          "passed": true,
+          "norm": 6.000000000000001,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 24.672500032465905
+        },
+        {
+          "name": "Threshold 70% (pass)",
+          "passed": true,
+          "norm": 7.000000000000001,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 19.068900030106306
+        },
+        {
+          "name": "Threshold 80% (pass)",
+          "passed": true,
+          "norm": 8.000000000000002,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 23.97849998669699
+        },
+        {
+          "name": "Threshold 85% (pass)",
+          "passed": true,
+          "norm": 8.5,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 21.880699961911887
+        },
+        {
+          "name": "Threshold 90% (pass)",
+          "passed": true,
+          "norm": 9.0,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 21.024500019848347
+        },
+        {
+          "name": "Threshold 92% (pass)",
+          "passed": true,
+          "norm": 9.199999999999996,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 18.125299946404994
+        },
+        {
+          "name": "Threshold 94% (pass)",
+          "passed": true,
+          "norm": 9.399999999999999,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 20.15120000578463
+        },
+        {
+          "name": "Threshold 96% (pass)",
+          "passed": true,
+          "norm": 9.6,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 18.051199964247644
+        },
+        {
+          "name": "Threshold 98% (pass)",
+          "passed": true,
+          "norm": 9.799999999999999,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 17.905699962284416
+        },
+        {
+          "name": "Threshold 99% (pass)",
+          "passed": true,
+          "norm": 9.899999999999997,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 20.854300004430115
+        },
+        {
+          "name": "Threshold 99.5% (pass)",
+          "passed": true,
+          "norm": 9.95,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 20.29670000774786
+        },
+        {
+          "name": "Threshold 99.9% (pass)",
+          "passed": true,
+          "norm": 9.990000000000007,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 21.22850000159815
+        },
+        {
+          "name": "Threshold 100% (pass)",
+          "passed": true,
+          "norm": 9.999999999999998,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 18.834999995306134
+        },
+        {
+          "name": "Threshold 100.01% (fail)",
+          "passed": true,
+          "norm": 10.001,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 18.231800000648946
+        },
+        {
+          "name": "Threshold 100.1% (fail)",
+          "passed": true,
+          "norm": 10.009999999999998,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 18.010900006629527
+        },
+        {
+          "name": "Threshold 100.5% (fail)",
+          "passed": true,
+          "norm": 10.049999999999997,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 19.77359998272732
+        },
+        {
+          "name": "Threshold 101% (fail)",
+          "passed": true,
+          "norm": 10.100000000000003,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 32.17000002041459
+        },
+        {
+          "name": "Threshold 102% (fail)",
+          "passed": true,
+          "norm": 10.200000000000001,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 32.185499963816255
+        },
+        {
+          "name": "Threshold 105% (fail)",
+          "passed": true,
+          "norm": 10.5,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 34.297200036235154
+        },
+        {
+          "name": "Threshold 110% (fail)",
+          "passed": true,
+          "norm": 11.000000000000002,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 33.394699974451214
+        }
+      ]
+    },
+    "multi_layer": {
+      "passed": 15,
+      "total": 15,
+      "tests": [
+        {
+          "name": "1 layers, safe",
+          "passed": true,
+          "norm": 0.002140609689723478,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 30.927599989809096
+        },
+        {
+          "name": "2 layers, safe",
+          "passed": true,
+          "norm": 0.0031091301483321303,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 49.82800001744181
+        },
+        {
+          "name": "3 layers, safe",
+          "passed": true,
+          "norm": 0.003774584512198773,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 74.4445999735035
+        },
+        {
+          "name": "4 layers, safe",
+          "passed": true,
+          "norm": 0.004394271573494756,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 98.85310003301129
+        },
+        {
+          "name": "6 layers, safe",
+          "passed": true,
+          "norm": 0.005348107336934687,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 150.96919995266944
+        },
+        {
+          "name": "8 layers, safe",
+          "passed": true,
+          "norm": 0.00613157338904423,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 207.48909999383613
+        },
+        {
+          "name": "10 layers, safe",
+          "passed": true,
+          "norm": 0.006903485903148005,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 252.6986000011675
+        },
+        {
+          "name": "12 layers, safe",
+          "passed": true,
+          "norm": 0.0075000480079338875,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 328.75090005109087
+        },
+        {
+          "name": "15 layers, safe",
+          "passed": true,
+          "norm": 0.008371996650587417,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 370.03450002521276
+        },
+        {
+          "name": "4 layers, excessive",
+          "passed": true,
+          "norm": 10.808996223461717,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 100.005800020881
+        },
+        {
+          "name": "6 layers, excessive",
+          "passed": true,
+          "norm": 13.171590029287602,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 149.22560000559315
+        },
+        {
+          "name": "8 layers, excessive",
+          "passed": true,
+          "norm": 15.3531290226057,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 191.75659999018535
+        },
+        {
+          "name": "10 layers, excessive",
+          "passed": true,
+          "norm": 17.24686648189653,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 247.43089999537915
+        },
+        {
+          "name": "12 layers, excessive",
+          "passed": true,
+          "norm": 18.938004665903122,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 296.4871999574825
+        },
+        {
+          "name": "15 layers, excessive",
+          "passed": true,
+          "norm": 20.9888802209995,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 367.0094999833964
+        }
+      ]
+    },
+    "tamper": {
+      "passed": 10,
+      "total": 10,
+      "tests": [
+        {
+          "name": "Hash tampering: clean",
+          "passed": true,
+          "norm": 0.002198336438188209,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 25.99759999429807
+        },
+        {
+          "name": "Hash tampering: single_bit",
+          "passed": true,
+          "norm": 0.002181110438773693,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 23.436500050593168
+        },
+        {
+          "name": "Hash tampering: first_char",
+          "passed": true,
+          "norm": 0.0021560506614694886,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 24.779299972578883
+        },
+        {
+          "name": "Hash tampering: middle_char",
+          "passed": true,
+          "norm": 0.0021834335945983938,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 23.832399980165064
+        },
+        {
+          "name": "Hash tampering: completely_different",
+          "passed": true,
+          "norm": 0.0021897327816536856,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 24.81830003671348
+        },
+        {
+          "name": "Hash tampering: truncated",
+          "passed": true,
+          "norm": 0.002222118093136846,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 26.109400030691177
+        },
+        {
+          "name": "Hash tampering: random_1",
+          "passed": true,
+          "norm": 0.0021171049702452334,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 22.91890000924468
+        },
+        {
+          "name": "Hash tampering: random_2",
+          "passed": true,
+          "norm": 0.0021843328356658583,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 25.19930002745241
+        },
+        {
+          "name": "Hash tampering: random_3",
+          "passed": true,
+          "norm": 0.0021846339800139784,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 25.487600010819733
+        },
+        {
+          "name": "Hash tampering: random_4",
+          "passed": true,
+          "norm": 0.002193778065106093,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 24.998500011861324
+        }
+      ]
+    },
+    "attack": {
+      "passed": 15,
+      "total": 15,
+      "tests": [
+        {
+          "name": "Minimal finetune",
+          "passed": true,
+          "norm": 1.0,
+          "threshold": 10.0,
+          "detected": false,
+          "duration_ms": 32.69849997013807
+        },
+        {
+          "name": "Light finetune",
+          "passed": true,
+          "norm": 3.0000000000000004,
+          "threshold": 10.0,
+          "detected": false,
+          "duration_ms": 30.50330001860857
+        },
+        {
+          "name": "Standard finetune",
+          "passed": true,
+          "norm": 4.999999999999998,
+          "threshold": 10.0,
+          "detected": false,
+          "duration_ms": 33.75709999818355
+        },
+        {
+          "name": "Heavy finetune",
+          "passed": true,
+          "norm": 7.999999999999997,
+          "threshold": 10.0,
+          "detected": false,
+          "duration_ms": 33.68729999056086
+        },
+        {
+          "name": "Maximum safe",
+          "passed": true,
+          "norm": 9.899999999999995,
+          "threshold": 10.0,
+          "detected": false,
+          "duration_ms": 34.05430004931986
+        },
+        {
+          "name": "Slight overstep",
+          "passed": true,
+          "norm": 10.099999999999998,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 34.313500043936074
+        },
+        {
+          "name": "5% over limit",
+          "passed": true,
+          "norm": 10.500000000000004,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 32.30800002347678
+        },
+        {
+          "name": "10% over limit",
+          "passed": true,
+          "norm": 11.0,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 33.32260000752285
+        },
+        {
+          "name": "20% over limit",
+          "passed": true,
+          "norm": 11.999999999999998,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 32.92920003877953
+        },
+        {
+          "name": "50% over limit",
+          "passed": true,
+          "norm": 15.000000000000004,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 32.951599976513535
+        },
+        {
+          "name": "2x limit (evasion attempt)",
+          "passed": true,
+          "norm": 20.000000000000004,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 32.06009999848902
+        },
+        {
+          "name": "5x limit (major violation)",
+          "passed": true,
+          "norm": 50.0,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 33.13200001139194
+        },
+        {
+          "name": "10x limit (catastrophic)",
+          "passed": true,
+          "norm": 99.99999999999999,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 34.63070001453161
+        },
+        {
+          "name": "50x limit (adversarial)",
+          "passed": true,
+          "norm": 500.0000000000001,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 34.94089999003336
+        },
+        {
+          "name": "100x limit (malicious)",
+          "passed": true,
+          "norm": 1000.0000000000001,
+          "threshold": 10.0,
+          "detected": true,
+          "duration_ms": 34.66950001893565
+        }
+      ]
+    }
+  },
+  "tests": [
+    {
+      "name": "LR=1e-06 (compliant)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 52.7198999770917,
+      "details": "LR=1e-06, norm=0.0000, ACCEPTED",
+      "norm": 2.2132406900173048e-07,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=1e-05 (compliant)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 20.47249994939193,
+      "details": "LR=1e-05, norm=0.0000, ACCEPTED",
+      "norm": 2.1259200391025182e-05,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=5e-05 (compliant)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 20.009399973787367,
+      "details": "LR=5e-05, norm=0.0006, ACCEPTED",
+      "norm": 0.0005604303281406839,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.0001 (compliant)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 17.671699984930456,
+      "details": "LR=0.0001, norm=0.0022, ACCEPTED",
+      "norm": 0.002160905427702551,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.0002 (compliant)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 15.712900029029697,
+      "details": "LR=0.0002, norm=0.0087, ACCEPTED",
+      "norm": 0.00866890770768759,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.0005 (compliant)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 18.661700014490634,
+      "details": "LR=0.0005, norm=0.0546, ACCEPTED",
+      "norm": 0.0546406394276882,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.001 (compliant)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 16.013999993447214,
+      "details": "LR=0.001, norm=0.2204, ACCEPTED",
+      "norm": 0.22042855402995845,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.002 (compliant)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 15.120800002478063,
+      "details": "LR=0.002, norm=0.8646, ACCEPTED",
+      "norm": 0.8646005882721158,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.003 (compliant)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 15.642099955584854,
+      "details": "LR=0.003, norm=1.9551, ACCEPTED",
+      "norm": 1.9551431661269725,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.005 (compliant)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 16.921200032811612,
+      "details": "LR=0.005, norm=5.3093, ACCEPTED",
+      "norm": 5.309290515263741,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.01 (violation)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 15.130400017369539,
+      "details": "LR=0.01, norm=21.7291, REJECTED",
+      "norm": 21.729075234195477,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.02 (violation)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 17.517599975690246,
+      "details": "LR=0.02, norm=88.8661, REJECTED",
+      "norm": 88.86613597397204,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.03 (violation)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 18.09179998235777,
+      "details": "LR=0.03, norm=195.9678, REJECTED",
+      "norm": 195.96783103872048,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.05 (violation)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 17.322600004263222,
+      "details": "LR=0.05, norm=537.4676, REJECTED",
+      "norm": 537.4675552750294,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.1 (violation)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 15.675300033763051,
+      "details": "LR=0.1, norm=2141.6844, REJECTED",
+      "norm": 2141.6843613513633,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.15 (violation)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 16.347600030712783,
+      "details": "LR=0.15, norm=5010.0727, REJECTED",
+      "norm": 5010.072731758079,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.2 (violation)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 16.298000002279878,
+      "details": "LR=0.2, norm=8658.3322, REJECTED",
+      "norm": 8658.332164746203,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.5 (violation)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 17.378500022459775,
+      "details": "LR=0.5, norm=54173.9107, REJECTED",
+      "norm": 54173.910715335776,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=0.8 (violation)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 15.47550002578646,
+      "details": "LR=0.8, norm=137532.6345, REJECTED",
+      "norm": 137532.63448275352,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "LR=1.0 (violation)",
+      "category": "lr_sweep",
+      "passed": true,
+      "duration_ms": 16.732499992940575,
+      "details": "LR=1.0, norm=215818.2173, REJECTED",
+      "norm": 215818.21730954773,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "tiny: r=4 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 2.8965999954380095,
+      "details": "tiny: rank=4, h=256, norm=0.0005",
+      "norm": 0.0005215459246756824,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "tiny: r=8 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 3.8904999964870512,
+      "details": "tiny: rank=8, h=256, norm=0.0007",
+      "norm": 0.0007321766211557621,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "tiny: r=16 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 2.559899992775172,
+      "details": "tiny: rank=16, h=256, norm=0.0010",
+      "norm": 0.0010147408775609235,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "tiny: r=32 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 3.7084000068716705,
+      "details": "tiny: rank=32, h=256, norm=0.0015",
+      "norm": 0.0014523027824078715,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "small: r=4 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 5.563899991102517,
+      "details": "small: rank=4, h=512, norm=0.0010",
+      "norm": 0.0010309119559936747,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "small: r=8 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 7.360100047662854,
+      "details": "small: rank=8, h=512, norm=0.0015",
+      "norm": 0.0014616730470232153,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "small: r=16 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 6.357999984174967,
+      "details": "small: rank=16, h=512, norm=0.0021",
+      "norm": 0.0020550954745380107,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "small: r=32 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 9.044000005815178,
+      "details": "small: rank=32, h=512, norm=0.0028",
+      "norm": 0.0028277820460633238,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "base: r=4 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 15.123499964829534,
+      "details": "base: rank=4, h=768, norm=0.0015",
+      "norm": 0.0015182719306991602,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "base: r=8 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 16.465399996377528,
+      "details": "base: rank=8, h=768, norm=0.0021",
+      "norm": 0.002148400463723108,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "base: r=16 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 17.468500009272248,
+      "details": "base: rank=16, h=768, norm=0.0031",
+      "norm": 0.003055574316663689,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "base: r=32 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 18.43969995388761,
+      "details": "base: rank=32, h=768, norm=0.0044",
+      "norm": 0.004385695251211029,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "medium: r=4 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 25.65249998588115,
+      "details": "medium: rank=4, h=1024, norm=0.0021",
+      "norm": 0.0020889504738267122,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "medium: r=8 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 38.170000014360994,
+      "details": "medium: rank=8, h=1024, norm=0.0028",
+      "norm": 0.002830271138214267,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "medium: r=16 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 35.212599963415414,
+      "details": "medium: rank=16, h=1024, norm=0.0041",
+      "norm": 0.004138218961692427,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "medium: r=32 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 37.96449996298179,
+      "details": "medium: rank=32, h=1024, norm=0.0058",
+      "norm": 0.005798816112107601,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "large: r=4 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 48.79019997315481,
+      "details": "large: rank=4, h=1280, norm=0.0025",
+      "norm": 0.0025369417750646054,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "large: r=8 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 53.02389996359125,
+      "details": "large: rank=8, h=1280, norm=0.0036",
+      "norm": 0.003634031494623497,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "large: r=16 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 46.453399991150945,
+      "details": "large: rank=16, h=1280, norm=0.0052",
+      "norm": 0.005158499544150131,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "large: r=32 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 50.700999971013516,
+      "details": "large: rank=32, h=1280, norm=0.0073",
+      "norm": 0.007289940295482903,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "xl: r=4 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 72.03410001238808,
+      "details": "xl: rank=4, h=1600, norm=0.0032",
+      "norm": 0.0032270280054972314,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "xl: r=8 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 78.53599998634309,
+      "details": "xl: rank=8, h=1600, norm=0.0045",
+      "norm": 0.004487506573319029,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "xl: r=16 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 71.85529998969287,
+      "details": "xl: rank=16, h=1600, norm=0.0064",
+      "norm": 0.006430077152499108,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "xl: r=32 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 76.2867999728769,
+      "details": "xl: rank=32, h=1600, norm=0.0090",
+      "norm": 0.00902285582191949,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "xxl: r=4 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 105.95840000314638,
+      "details": "xxl: rank=4, h=2048, norm=0.0041",
+      "norm": 0.004128040343535154,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "xxl: r=8 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 100.33889999613166,
+      "details": "xxl: rank=8, h=2048, norm=0.0058",
+      "norm": 0.005844273176851484,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "xxl: r=16 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 99.43189995829016,
+      "details": "xxl: rank=16, h=2048, norm=0.0083",
+      "norm": 0.008291268988286811,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "xxl: r=32 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 116.32509995251894,
+      "details": "xxl: rank=32, h=2048, norm=0.0116",
+      "norm": 0.011610369176429033,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "gpt2: r=4 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 18.58370000263676,
+      "details": "gpt2: rank=4, h=768, norm=0.0016",
+      "norm": 0.0015899039689229394,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "gpt2: r=8 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 15.977400005795062,
+      "details": "gpt2: rank=8, h=768, norm=0.0021",
+      "norm": 0.002140678382742942,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "gpt2: r=16 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 20.514999981969595,
+      "details": "gpt2: rank=16, h=768, norm=0.0031",
+      "norm": 0.003094526013019182,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "gpt2: r=32 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 20.067600009497255,
+      "details": "gpt2: rank=32, h=768, norm=0.0043",
+      "norm": 0.004349112264081802,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "gpt2-medium: r=4 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 29.91639997344464,
+      "details": "gpt2-medium: rank=4, h=1024, norm=0.0021",
+      "norm": 0.002102827170064038,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "gpt2-medium: r=8 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 36.728099978063256,
+      "details": "gpt2-medium: rank=8, h=1024, norm=0.0029",
+      "norm": 0.0028565923827753837,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "gpt2-medium: r=16 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 34.47240003151819,
+      "details": "gpt2-medium: rank=16, h=1024, norm=0.0041",
+      "norm": 0.004085953784849899,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "gpt2-medium: r=32 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 33.79799996037036,
+      "details": "gpt2-medium: rank=32, h=1024, norm=0.0058",
+      "norm": 0.005773117993384384,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "gpt2-large: r=4 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 48.809200001414865,
+      "details": "gpt2-large: rank=4, h=1280, norm=0.0026",
+      "norm": 0.002558881746708083,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "gpt2-large: r=8 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 53.270499978680164,
+      "details": "gpt2-large: rank=8, h=1280, norm=0.0036",
+      "norm": 0.0035729806080416317,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "gpt2-large: r=16 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 48.50919998716563,
+      "details": "gpt2-large: rank=16, h=1280, norm=0.0051",
+      "norm": 0.005072216403721939,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "gpt2-large: r=32 (safe)",
+      "category": "model",
+      "passed": true,
+      "duration_ms": 51.39239999698475,
+      "details": "gpt2-large: rank=32, h=1280, norm=0.0073",
+      "norm": 0.007281922515104682,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Rank=2, safe scale",
+      "category": "rank",
+      "passed": true,
+      "duration_ms": 12.116800004150718,
+      "details": "base: rank=2, h=768, norm=0.0011",
+      "norm": 0.0010900289783744917,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Rank=4, safe scale",
+      "category": "rank",
+      "passed": true,
+      "duration_ms": 17.732199979946017,
+      "details": "base: rank=4, h=768, norm=0.0015",
+      "norm": 0.0015070583935880085,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Rank=8, safe scale",
+      "category": "rank",
+      "passed": true,
+      "duration_ms": 15.663700003642589,
+      "details": "base: rank=8, h=768, norm=0.0022",
+      "norm": 0.002221296793846984,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Rank=16, safe scale",
+      "category": "rank",
+      "passed": true,
+      "duration_ms": 18.366499978583306,
+      "details": "base: rank=16, h=768, norm=0.0020",
+      "norm": 0.0019673913553613412,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Rank=32, safe scale",
+      "category": "rank",
+      "passed": true,
+      "duration_ms": 19.2063000285998,
+      "details": "base: rank=32, h=768, norm=0.0028",
+      "norm": 0.0027925385754315603,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Rank=64, safe scale",
+      "category": "rank",
+      "passed": true,
+      "duration_ms": 23.063500004354864,
+      "details": "base: rank=64, h=768, norm=0.0015",
+      "norm": 0.0015449484004434197,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Rank=128, safe scale",
+      "category": "rank",
+      "passed": true,
+      "duration_ms": 27.216700022108853,
+      "details": "base: rank=128, h=768, norm=0.0022",
+      "norm": 0.002183806304137427,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Rank=256, safe scale",
+      "category": "rank",
+      "passed": true,
+      "duration_ms": 33.55039999587461,
+      "details": "base: rank=256, h=768, norm=0.0030",
+      "norm": 0.0030393118914656776,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Rank=8, excessive scale",
+      "category": "rank",
+      "passed": true,
+      "duration_ms": 16.227199987042695,
+      "details": "base: rank=8, h=768, norm=22.0638",
+      "norm": 22.063831310127945,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Rank=16, excessive scale",
+      "category": "rank",
+      "passed": true,
+      "duration_ms": 19.411600020248443,
+      "details": "base: rank=16, h=768, norm=30.4313",
+      "norm": 30.43129165881495,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Rank=32, excessive scale",
+      "category": "rank",
+      "passed": true,
+      "duration_ms": 43.130400008521974,
+      "details": "base: rank=32, h=768, norm=43.2244",
+      "norm": 43.22444714945977,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Rank=64, excessive scale",
+      "category": "rank",
+      "passed": true,
+      "duration_ms": 34.53599999193102,
+      "details": "base: rank=64, h=768, norm=61.5574",
+      "norm": 61.55737984768516,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 10% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 31.259600014891475,
+      "details": "10% of threshold, norm=1.0000, ACCEPTED",
+      "norm": 0.9999999999999997,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 20% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 25.555500003974885,
+      "details": "20% of threshold, norm=2.0000, ACCEPTED",
+      "norm": 1.9999999999999996,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 30% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 23.138999997172505,
+      "details": "30% of threshold, norm=3.0000, ACCEPTED",
+      "norm": 2.999999999999999,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 40% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 22.33199996408075,
+      "details": "40% of threshold, norm=4.0000, ACCEPTED",
+      "norm": 4.0,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 50% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 23.731399967800826,
+      "details": "50% of threshold, norm=5.0000, ACCEPTED",
+      "norm": 4.999999999999999,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 60% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 24.672500032465905,
+      "details": "60% of threshold, norm=6.0000, ACCEPTED",
+      "norm": 6.000000000000001,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 70% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 19.068900030106306,
+      "details": "70% of threshold, norm=7.0000, ACCEPTED",
+      "norm": 7.000000000000001,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 80% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 23.97849998669699,
+      "details": "80% of threshold, norm=8.0000, ACCEPTED",
+      "norm": 8.000000000000002,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 85% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 21.880699961911887,
+      "details": "85% of threshold, norm=8.5000, ACCEPTED",
+      "norm": 8.5,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 90% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 21.024500019848347,
+      "details": "90% of threshold, norm=9.0000, ACCEPTED",
+      "norm": 9.0,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 92% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 18.125299946404994,
+      "details": "92% of threshold, norm=9.2000, ACCEPTED",
+      "norm": 9.199999999999996,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 94% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 20.15120000578463,
+      "details": "94% of threshold, norm=9.4000, ACCEPTED",
+      "norm": 9.399999999999999,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 96% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 18.051199964247644,
+      "details": "96% of threshold, norm=9.6000, ACCEPTED",
+      "norm": 9.6,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 98% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 17.905699962284416,
+      "details": "98% of threshold, norm=9.8000, ACCEPTED",
+      "norm": 9.799999999999999,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 99% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 20.854300004430115,
+      "details": "99% of threshold, norm=9.9000, ACCEPTED",
+      "norm": 9.899999999999997,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 99.5% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 20.29670000774786,
+      "details": "99.5% of threshold, norm=9.9500, ACCEPTED",
+      "norm": 9.95,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 99.9% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 21.22850000159815,
+      "details": "99.9% of threshold, norm=9.9900, ACCEPTED",
+      "norm": 9.990000000000007,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 100% (pass)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 18.834999995306134,
+      "details": "100% of threshold, norm=10.0000, ACCEPTED",
+      "norm": 9.999999999999998,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 100.01% (fail)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 18.231800000648946,
+      "details": "100.01% of threshold, norm=10.0010, REJECTED",
+      "norm": 10.001,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 100.1% (fail)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 18.010900006629527,
+      "details": "100.1% of threshold, norm=10.0100, REJECTED",
+      "norm": 10.009999999999998,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 100.5% (fail)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 19.77359998272732,
+      "details": "100.5% of threshold, norm=10.0500, REJECTED",
+      "norm": 10.049999999999997,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 101% (fail)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 32.17000002041459,
+      "details": "101% of threshold, norm=10.1000, REJECTED",
+      "norm": 10.100000000000003,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 102% (fail)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 32.185499963816255,
+      "details": "102% of threshold, norm=10.2000, REJECTED",
+      "norm": 10.200000000000001,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 105% (fail)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 34.297200036235154,
+      "details": "105% of threshold, norm=10.5000, REJECTED",
+      "norm": 10.5,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Threshold 110% (fail)",
+      "category": "boundary",
+      "passed": true,
+      "duration_ms": 33.394699974451214,
+      "details": "110% of threshold, norm=11.0000, REJECTED",
+      "norm": 11.000000000000002,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "1 layers, safe",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 30.927599989809096,
+      "details": "1 layers, total_norm=0.0021",
+      "norm": 0.002140609689723478,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "2 layers, safe",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 49.82800001744181,
+      "details": "2 layers, total_norm=0.0031",
+      "norm": 0.0031091301483321303,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "3 layers, safe",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 74.4445999735035,
+      "details": "3 layers, total_norm=0.0038",
+      "norm": 0.003774584512198773,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "4 layers, safe",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 98.85310003301129,
+      "details": "4 layers, total_norm=0.0044",
+      "norm": 0.004394271573494756,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "6 layers, safe",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 150.96919995266944,
+      "details": "6 layers, total_norm=0.0053",
+      "norm": 0.005348107336934687,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "8 layers, safe",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 207.48909999383613,
+      "details": "8 layers, total_norm=0.0061",
+      "norm": 0.00613157338904423,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "10 layers, safe",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 252.6986000011675,
+      "details": "10 layers, total_norm=0.0069",
+      "norm": 0.006903485903148005,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "12 layers, safe",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 328.75090005109087,
+      "details": "12 layers, total_norm=0.0075",
+      "norm": 0.0075000480079338875,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "15 layers, safe",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 370.03450002521276,
+      "details": "15 layers, total_norm=0.0084",
+      "norm": 0.008371996650587417,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "4 layers, excessive",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 100.005800020881,
+      "details": "4 layers, total_norm=10.8090",
+      "norm": 10.808996223461717,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "6 layers, excessive",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 149.22560000559315,
+      "details": "6 layers, total_norm=13.1716",
+      "norm": 13.171590029287602,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "8 layers, excessive",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 191.75659999018535,
+      "details": "8 layers, total_norm=15.3531",
+      "norm": 15.3531290226057,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "10 layers, excessive",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 247.43089999537915,
+      "details": "10 layers, total_norm=17.2469",
+      "norm": 17.24686648189653,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "12 layers, excessive",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 296.4871999574825,
+      "details": "12 layers, total_norm=18.9380",
+      "norm": 18.938004665903122,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "15 layers, excessive",
+      "category": "multi_layer",
+      "passed": true,
+      "duration_ms": 367.0094999833964,
+      "details": "15 layers, total_norm=20.9889",
+      "norm": 20.9888802209995,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Hash tampering: clean",
+      "category": "tamper",
+      "passed": true,
+      "duration_ms": 25.99759999429807,
+      "details": "hash_diff=clean, ACCEPTED",
+      "norm": 0.002198336438188209,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Hash tampering: single_bit",
+      "category": "tamper",
+      "passed": true,
+      "duration_ms": 23.436500050593168,
+      "details": "hash_diff=single_bit, REJECTED",
+      "norm": 0.002181110438773693,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Hash tampering: first_char",
+      "category": "tamper",
+      "passed": true,
+      "duration_ms": 24.779299972578883,
+      "details": "hash_diff=first_char, REJECTED",
+      "norm": 0.0021560506614694886,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Hash tampering: middle_char",
+      "category": "tamper",
+      "passed": true,
+      "duration_ms": 23.832399980165064,
+      "details": "hash_diff=middle_char, REJECTED",
+      "norm": 0.0021834335945983938,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Hash tampering: completely_different",
+      "category": "tamper",
+      "passed": true,
+      "duration_ms": 24.81830003671348,
+      "details": "hash_diff=completely_different, REJECTED",
+      "norm": 0.0021897327816536856,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Hash tampering: truncated",
+      "category": "tamper",
+      "passed": true,
+      "duration_ms": 26.109400030691177,
+      "details": "hash_diff=truncated, REJECTED",
+      "norm": 0.002222118093136846,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Hash tampering: random_1",
+      "category": "tamper",
+      "passed": true,
+      "duration_ms": 22.91890000924468,
+      "details": "hash_diff=random_1, REJECTED",
+      "norm": 0.0021171049702452334,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Hash tampering: random_2",
+      "category": "tamper",
+      "passed": true,
+      "duration_ms": 25.19930002745241,
+      "details": "hash_diff=random_2, REJECTED",
+      "norm": 0.0021843328356658583,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Hash tampering: random_3",
+      "category": "tamper",
+      "passed": true,
+      "duration_ms": 25.487600010819733,
+      "details": "hash_diff=random_3, REJECTED",
+      "norm": 0.0021846339800139784,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Hash tampering: random_4",
+      "category": "tamper",
+      "passed": true,
+      "duration_ms": 24.998500011861324,
+      "details": "hash_diff=random_4, REJECTED",
+      "norm": 0.002193778065106093,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "Minimal finetune",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 32.69849997013807,
+      "details": "Minimal finetune: norm=1.00 (10%), ALLOWED",
+      "norm": 1.0,
+      "threshold": 10.0,
+      "detected": false
+    },
+    {
+      "name": "Light finetune",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 30.50330001860857,
+      "details": "Light finetune: norm=3.00 (30%), ALLOWED",
+      "norm": 3.0000000000000004,
+      "threshold": 10.0,
+      "detected": false
+    },
+    {
+      "name": "Standard finetune",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 33.75709999818355,
+      "details": "Standard finetune: norm=5.00 (50%), ALLOWED",
+      "norm": 4.999999999999998,
+      "threshold": 10.0,
+      "detected": false
+    },
+    {
+      "name": "Heavy finetune",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 33.68729999056086,
+      "details": "Heavy finetune: norm=8.00 (80%), ALLOWED",
+      "norm": 7.999999999999997,
+      "threshold": 10.0,
+      "detected": false
+    },
+    {
+      "name": "Maximum safe",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 34.05430004931986,
+      "details": "Maximum safe: norm=9.90 (99%), ALLOWED",
+      "norm": 9.899999999999995,
+      "threshold": 10.0,
+      "detected": false
+    },
+    {
+      "name": "Slight overstep",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 34.313500043936074,
+      "details": "Slight overstep: norm=10.10 (101%), BLOCKED",
+      "norm": 10.099999999999998,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "5% over limit",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 32.30800002347678,
+      "details": "5% over limit: norm=10.50 (105%), BLOCKED",
+      "norm": 10.500000000000004,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "10% over limit",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 33.32260000752285,
+      "details": "10% over limit: norm=11.00 (110%), BLOCKED",
+      "norm": 11.0,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "20% over limit",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 32.92920003877953,
+      "details": "20% over limit: norm=12.00 (120%), BLOCKED",
+      "norm": 11.999999999999998,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "50% over limit",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 32.951599976513535,
+      "details": "50% over limit: norm=15.00 (150%), BLOCKED",
+      "norm": 15.000000000000004,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "2x limit (evasion attempt)",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 32.06009999848902,
+      "details": "2x limit (evasion attempt): norm=20.00 (200%), BLOCKED",
+      "norm": 20.000000000000004,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "5x limit (major violation)",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 33.13200001139194,
+      "details": "5x limit (major violation): norm=50.00 (500%), BLOCKED",
+      "norm": 50.0,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "10x limit (catastrophic)",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 34.63070001453161,
+      "details": "10x limit (catastrophic): norm=100.00 (1000%), BLOCKED",
+      "norm": 99.99999999999999,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "50x limit (adversarial)",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 34.94089999003336,
+      "details": "50x limit (adversarial): norm=500.00 (5000%), BLOCKED",
+      "norm": 500.0000000000001,
+      "threshold": 10.0,
+      "detected": true
+    },
+    {
+      "name": "100x limit (malicious)",
+      "category": "attack",
+      "passed": true,
+      "duration_ms": 34.66950001893565,
+      "details": "100x limit (malicious): norm=1000.00 (10000%), BLOCKED",
+      "norm": 1000.0000000000001,
+      "threshold": 10.0,
+      "detected": true
+    }
+  ]
+}
