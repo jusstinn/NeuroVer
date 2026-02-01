@@ -166,8 +166,6 @@ is_valid = generator.verify_proof("./proofs/mock_proof.json")
 
 ## 📈 Visualizations
 
-### Weight Norm Comparison
-![Weight Norm Comparison](reports/weight_norm_comparison.png)
 
 ### Attack Detection Matrix
 ![Attack Detection](reports/attack_detection_matrix.png)
@@ -226,13 +224,3 @@ is_valid = generator.verify_proof("./proofs/mock_proof.json")
 MIT License — Open source for AI governance research.
 
 ---
-
-## 🙏 Acknowledgments
-
-- [Apart Research](https://apartresearch.com/) — Challenge organizers
-- [EZKL](https://ezkl.xyz/) — ZK-ML framework
-- [Hugging Face](https://huggingface.co/) — transformers & peft
-
----
-
-*Built with ❤️ for trustworthy AI*
